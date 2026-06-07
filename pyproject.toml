@@ -8,3 +8,5 @@ dependencies = [
     "fastapi>=0.136.3",
     "pydantic>=2.13.4",
 ]
+[tool.pytest.ini_options]
+pythonpath = ["."]
